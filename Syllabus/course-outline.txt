@@ -1,0 +1,30 @@
+Method: Agile Development
+
+Tools: Git (version control), xUnit (unit testing)
+
+Testing: Automated testing, TDD
+
+Patterns
+========
+- Software Design Patterns: Singleton, Adapter, Observer
+- Software Achitectural Patterns: MVC, Event-driven
+
+
+PERFORM, EVALUATE, REFLECT
+
+
+70% Project-oriented:
+- Functional (Verified & Validated)
+- Maintainable
+- Extensibile
+- Usable
+
+- Useful
+- Ethical
+
+- Professional
+- Contributive
+
+15% Blog
+
+15% Exercises
