@@ -1,0 +1,45 @@
+<p>In this exercise you will practice:</p>
+<ul>
+<li>Pair programming</li>
+<li>Test-Driven Development</li>
+</ul>
+<p><span style="text-decoration: underline;">Pair Programming Rules</span></p>
+<p>In each pair, there is a <strong>Driver</strong> and a <strong>Navigator</strong> who both have important roles. Select who is going to be a driver and who is going to be a navigator first. If one partner already has experience writing unit tests, that person should start as the navigator. Half way through the exercise, you will switch roles so you will get to experience both parts.</p>
+<p><strong>Driver</strong> - You are the only person allowed to touch the keyboard. You interpret what needs to be done into actual code. While writing the code, explain what you are doing to the navigator ("Program out loud"). Thinking out loud should help you express your thoughts while also identifying what you are less-than-certain about. It is fine to ask for suggestions, but remember that the keyboard is yours and yours alone.</p>
+<p><strong>Navigator</strong> - Your job is to give the team direction. You will concentrate on the "big picture" and lead the team's strategy to solving the problem piece-by-piece. For example, you will identify what test case the team should tackle first to implement that part of the solution. While the driver types code, you should also work as an "editor" and help locate typographical errors and possible bugs. However, remember that you are working <em>with</em> the driver so it is important to give <em>constructive</em> input.</p>
+<p><span style="text-decoration: underline;">Test-Driven Development Rules</span></p>
+<ul>
+<li>Always write a unit test FIRST</li>
+<li>After writing a unit test, run all tests and make sure that your new test FAILS and all others PASS</li>
+<li>Then, write the solution that will resolve that test.</li>
+<li>Run the tests again and see if the test passes.
+<ul>
+<li>If so, clean up your code (where necessary) and move on to the next test case</li>
+<li>If not, re-examine your solution and figure out why it is failing the test</li>
+</ul>
+</li>
+<li>Add another test case (repeating above steps) until you have completed all necessary functionality and written corresponding tests</li>
+</ul>
+<p><span style="text-decoration: underline;">Your Task</span></p>
+<p>First, you will need to install a unit testing framework for the language you prefer to use, for example:</p>
+<ul>
+<li>Java - <a href="http://junit.org/" target="_blank">JUnit</a> (<a href="http://www.tutorialspoint.com/junit/junit_test_framework.htm" target="_blank">example</a>)<a href="http://junit.org/" title="JUnit" target="_blank"><br /></a></li>
+<li>C++ - GoogleTest (<a href="https://code.google.com/p/googletest/source/browse/trunk/README?r=671" target="_blank">instructions</a>) OR UnitTest++ (<a href="http://unittest-cpp.sourceforge.net/UnitTest++.html" target="_blank">getting started</a>) OR <a href="http://sourceforge.net/projects/cppunit/" target="_blank">CppUnit</a> (<a href="http://cppunit.sourceforge.net/doc/lastest/cppunit_cookbook.html" target="_blank">example</a>) (<a href="http://goulassoup.wordpress.com/2012/03/15/getting-started-with-cppunit/" target="_blank">getting started on *nix</a>)</li>
+<li>Python - unittest (also known as PyUnit), should already be included with your Python installation (<a href="https://docs.python.org/2/library/unittest.html#basic-example">example</a>)</li>
+</ul>
+<p>Next, it's time to write some code while following Test-Driven Development! Write a function that receives a string of text, and determines if it is a palindrome. Palindromes are words that are spelled the same ways forwards and backwards, such as <em>otto or ana, </em>or they can be phrases (disregarding spaces and punctuation), such as:</p>
+<blockquote>
+<p>Avid diva</p>
+<p>A man, a plan, a canal: Panama</p>
+<p>Some emos</p>
+</blockquote>
+<p>Return TRUE if the string is a palindrome and FALSE if it is not. Disregard any non-alphabetic characters and case does not matter (both Anna and anna count are correct palindromes).</p>
+<p>Before the end of lab, make sure you <strong>show the instructor what you have accomplished before you leave </strong>in order to get a grade!</p>
+<p><span style="text-decoration: underline;"><strong>Rubric:</strong></span></p>
+<p>50pts - Installed Unit Test framework and can run tests</p>
+<p>20pts - Have at least one passing (and meaningful) test</p>
+<p>10pts - Palindrome function exists with corresponding unit tests (demonstrating TDD)</p>
+<p>5pts - Palindromes reliably work for even length strings</p>
+<p>5pts - Palindromes reliably work for odd length strings</p>
+<p>5pts - Palindromes reliably work for phrases with non-alphanumeric characters</p>
+<p>5pts - Palindromes reliably work for mixed case strings</p>
