@@ -1,4 +1,4 @@
-REQUIRED BLOG PROMPTS
+REQUIRED BLOG PROMPTS   
 MyBadCodeSmell
 (5pts) Completed
 (0pts) Missing
